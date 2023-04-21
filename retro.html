@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="retro.js"> </script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+        <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="retro.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="logo.png" alt="" width="50" height="ms-auto">ERICK LUNA
+                </a>
+
+                
+                <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#dls" class="nav-link">DadyLongSock</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#valorant" class="nav-link">Valorant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#momazo" class="nav-link">Momazo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="bg-dark text-light p-3 text-center text-sm-start" style="background-image: url('fondos.jpeg'); box-shadow: 3px 3px 3px rgba(0,0,0,0.5);">
+             <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                        <h1><span class="text-dark text-decoration" style="font-family: fantasy;">Become a</span>
+                            <span class="text-warning bg-dark text-decoration-underline" style="font-family: fantasy;">DadyLongSock</span>
+                        </h1>
+                        <p class="lead">
+                             Mi nombre es Erick Luna Carrada, pero en muchas plataformas me llamo <span class="text-warning bg-dark text-decoration-underline">DadyLongSock</span>. 
+                             Es una broma cagada y le hace tributo a la bella imagen de Bob Esponja.
+                        </p>   
+                        <button id='dis' style="box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);" onclick="dis()">Únete al Discord</button> 
+                    </div>
+                    <img class="img-fluid w-50 d-none d-sm-block" src="DadyLongSock.png"  style="margin-left: 15px;" alt="">
+                </div>
+             </div>
+        </section>
+
+        <section class="p-5" style="background-image: url('fondo2.jpeg')">
+            <div class="container">
+                <div class="row">
+
+                    <div id="dls" class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1">
+                                    <i class="bi-laptop"></i>
+                                </div>
+                            </div>
+                            <h3 class="card-title mb-3 text-center"  style="font-family: fantasy;">
+                                DadyLongSock
+                            </h3>
+                            <img class="img-fluid" src="DadyLongSock.png" alt="">
+                            <p class="text-center">
+                                La razón por la que me llamo <span class="text-warning">DadyLongSock</span> es porque un día me quise
+                                cambiar el username <span class="text-danger">elunac</span> a un username más original. Un día al ver 
+                                tiktok un usuario tenía esta imagen y de ahí me invente el nombre.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="valorant" class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1">
+                                    <i class="bi-laptop"></i>
+                                </div>
+                            </div>
+                            <h3 class="card-title mb-3 text-center" style="font-family: fantasy;">
+                                VALORANT
+                            </h3>
+                            <img class="img-fluid" src="platino.png" alt="">
+                            <p class="text-center">
+                                Me llamo <span class="text-warning">DadyLongSock</span> en valorant y actualmente soy rango
+                                platino, espero llegar a ser diamante algún dia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="momazo" class="col-md" >
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1">
+                                    <i class="bi-alarm-fill"></i>
+                                </div>
+                            </div>
+                            <h3 class="card-title mb-3 text-center" style="font-family: fantasy;">
+                                MOMAZO
+                            </h3>
+                                <button id="img" onclick="loadImg()">PÍCALE PARA VER EL MOMAZO</button>
+                                <p class="text-center">GRAN MOMAZO NO???</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <section class="p-5">
+                <div class="container">
+                    <div class="row align-items-center justify-content-between">
+
+                    </div>
+                </div>
+            </section>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </body>
+</html>
