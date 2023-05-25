@@ -1,4 +1,5 @@
 # MINIRETO
+My first web project 
+My first time using github lol
 
-Primera página web, para clase de Software
 
